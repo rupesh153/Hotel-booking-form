@@ -33,6 +33,11 @@
       gap: 10px;
   }
   .row div { flex: 1; }
+  @media (max-width: 400px) {
+    .row {
+        flex-direction: column;
+    }
+}
   button {
       width: 100%;
       padding: 12px;
