@@ -1,0 +1,56 @@
+  body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+      background: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?auto=format&fit=crop&q=80&w=2070') ;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     
+  }
+  .form_background {
+      background: rgba(0, 0, 0, 0.435);
+      padding: 40px;
+      border-radius: 15px;
+      width: 100%;
+      max-width: 500px;
+      color: white;
+      margin: 20px;
+  }
+  h2 { text-align: center; margin-bottom: 25px; }
+  label { display: block; margin-bottom: 5px; font-weight: bold; }
+  input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      box-sizing: border-box; 
+  }
+  .row {
+      display: flex;
+      gap: 10px;
+  }
+  .row div { flex: 1; }
+  button {
+      width: 100%;
+      padding: 12px;
+      background-color: #d4a373; 
+      color: white;
+      font-weight: bold;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 10px;
+  }
+  button:hover { background-color: #bc8a5f; }
+  .error {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+
+input:invalid, select:invalid, textarea:invalid {
+    border: 1px solid red;
+}
